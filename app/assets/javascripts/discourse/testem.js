@@ -53,10 +53,6 @@ module.exports = {
   reporter: Reporter,
 };
 
-if (process.env.CI) {
-  module.exports.launch_in_ci.push("Firefox", "Headless Firefox"); // Firefox is old ESR version, Headless Firefox is up-to-date evergreen version
-}
-
 if (shouldLoadPluginTestJs()) {
   module.exports.proxies = {
     "/assets/discourse/tests/core_plugins_tests.js": {
