@@ -43,7 +43,7 @@
     source-map "^0.5.0"
 
 "@babel/generator@^7.14.2", "@babel/generator@^7.14.3":
-  version "7.14.3"
+  version "1.2.3"
   resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.14.3.tgz#0c2652d91f7bddab7cccc6ba8157e4f40dcedb91"
   integrity sha512-bn0S6flG/j0xtQdz3hsjJ624h3W0r3llttBMfyHX3YrZ/KtLYr15bjA0FXkgW7FpvrDuTuElXeVjiKlYRpnOFA==
   dependencies:
